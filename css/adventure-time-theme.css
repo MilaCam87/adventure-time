@@ -1,0 +1,93 @@
+/*No tocar este codigo*/ 
+.sidebar-closed > #sidebar > ul {
+    display: none;
+}
+
+.sidebar-closed #main-content {
+    margin-left: 0px;
+}
+
+.sidebar-closed #sidebar {
+    margin-left: -180px;
+}
+
+/*Escribe aqui tu codigo */
+
+header {
+	width: 100%;
+	background-color: #424A5D;
+	position: fixed;
+	z-index: 20;
+}
+
+#sidebar {
+	position: fixed;
+	top:70px;
+	left: 0;
+	width: 210px;
+	background-color: #424A5D;
+	height: 100%;
+	z-index: 20;
+}
+
+#sidebar h5{
+	color: #F2F2F2;
+}
+
+#sidebar .nav-collapse a li span {
+	list-style: none;
+	left: 0px;
+	color: #999EA5;
+}
+
+.title-adv {
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+.sub-menu:hover {
+	color: white;
+	background-color: #7B4489;
+}
+
+.sidebar-menu li .active a {
+	background-color: #7B4489;
+	color: white;
+	display: block;
+}
+
+.sidebar-menu li a {
+	text-decoration: none;
+	display: block;
+	padding: 15px 0 15px 10px;
+	font-size: 12px;
+	outline: none;
+	transition: all 0.3s cubic-bezier(0);
+	list-style: none;
+}
+
+#main-content {
+	background-color: #F2F2F2;
+}
+
+.box1 {
+	margin-top:150px;
+	color: #989898;
+	text-align: center;
+	border-bottom: 2px solid #989898;
+}
+
+.box1 .fa {
+	font-size: 60px;
+}
+
+.box0:hover p{
+	text-align: center;
+	background-color: white;
+	display: block;
+	color: #FF8F68;
+}
+
+.box0 p{
+	display: none;
+}
