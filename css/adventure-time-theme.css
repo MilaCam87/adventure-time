@@ -13,6 +13,8 @@
 
 /*Escribe aqui tu codigo */
 
+/*header*/
+
 header {
 	width: 100%;
 	background-color: #424A5D;
@@ -56,6 +58,10 @@ header {
 	display: block;
 }
 
+.sidebar-menu li {
+	list-style: none;
+}
+
 .sidebar-menu li a {
 	text-decoration: none;
 	display: block;
@@ -66,12 +72,15 @@ header {
 	list-style: none;
 }
 
+/*main content*/
+
 #main-content {
 	background-color: #F2F2F2;
+	margin-left: 210px;
+	padding-top: 150px;
 }
 
 .box1 {
-	margin-top:150px;
 	color: #989898;
 	text-align: center;
 	border-bottom: 2px solid #989898;
@@ -88,6 +97,38 @@ header {
 	color: #FF8F68;
 }
 
+.box0:hover{
+	background-color: white;
+} 
 .box0 p{
 	display: none;
 }
+
+/*page header*/
+
+.page-header h1{
+	margin-left: 30px;
+}
+
+.video iframe {
+	margin-left: 30px;
+	padding-right: 20px;
+}
+
+.col-lg-5 h4 p {
+	color: #797979;
+	padding-bottom: 10px;
+}
+
+.buttons {
+	padding-right: 20px;
+}
+
+.showback {
+	margin-left: 30px;
+	background-color: white;
+	-webkit-box-shadow: 2px 5px 5px 1px rgba(77,77,77,0.2);
+	box-shadow: 2px 5px 5px 1px rgba(77,77,77,0.2); 
+	padding: 10px;
+}
+
