@@ -15,9 +15,11 @@
 
 /*header*/
 
+.container {
+	background-color: #424A5D;
+}
 header {
 	width: 100%;
-	background-color: #424A5D;
 	position: fixed;
 	z-index: 20;
 }
@@ -131,7 +133,7 @@ header {
 	padding-right: 20px;
 }
 
-.showback, .content-panel {
+.showback, .content-panel, .form-panel {
 	margin-left: 30px;
 	background-color: white;
 	-webkit-box-shadow: 2px 5px 5px 1px rgba(77,77,77,0.2);
