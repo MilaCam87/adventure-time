@@ -42,6 +42,13 @@ header {
 	color: #999EA5;
 }
 
+.logout {
+	background-color: #9C4C9D;
+	color: #EDE9ED;
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+
 .title-adv {
 	font-size: 20px;
 	padding-left: 10px;
@@ -124,7 +131,7 @@ header {
 	padding-right: 20px;
 }
 
-.showback {
+.showback, .content-panel {
 	margin-left: 30px;
 	background-color: white;
 	-webkit-box-shadow: 2px 5px 5px 1px rgba(77,77,77,0.2);
@@ -132,3 +139,28 @@ header {
 	padding: 10px;
 }
 
+/*buttons*/
+
+.ds h3 {
+	background-color: #9C4C9D;
+	padding: 10px;
+	width: 100%;
+	font-size: 15px;
+	color: white;
+	text-align: center;
+}
+
+span .badge .bg-theme {
+	background-color: #68DFF0;
+}
+
+.desc {
+	border-bottom: 1px solid #EAEAEA;
+	padding: 5px;
+}
+
+/*basic_tables*/
+
+.wrapper {
+	color: #797979;
+}
